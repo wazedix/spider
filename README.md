@@ -5,6 +5,17 @@
 
 ### Run
 
+运行前先用浏览器访问京东，获取 Cookie，替换 jd\_img.py 里的变量
+
+```
+python jd_img.py
+```
+
+或者只拉取图片链接，不下载图片:
+```
+python jd_img.py --NODOWN
+```
+
 ### Test
 
 ```
@@ -15,7 +26,7 @@ python proxy.py
 
 ### Code
 
-* jd_img.py 抓取京东沙发类别图片
+* jd\_img.py 抓取京东沙发类别图片，可以更改分类变量拉取其他类目图片
 * spider.py 基于 Gevent 的一个简易爬虫框架
 * store.py 封装存储相关的类
 * proxies.py 获取代理，暂未用到
