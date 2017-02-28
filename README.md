@@ -16,6 +16,8 @@ python jd_img.py
 python jd_img.py --NODOWN
 ```
 
+如果想重新执行，需要删除前一次执行后生成的 db 文件
+
 ### Test
 
 ```
